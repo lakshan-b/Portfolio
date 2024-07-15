@@ -102,6 +102,7 @@ function initRestabook() {
     });
     $(".share-container").share({
         networks: ['facebook', 'pinterest', 'tumblr', 'twitter', 'linkedin']
+        // networks: ['facebook','linkedin','github','instagram','twitter']
     });
     var shrcn = $(".share-wrapper"),
         clsh = $(".share-container a");
